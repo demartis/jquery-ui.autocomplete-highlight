@@ -3,7 +3,7 @@ jquery-ui.autocomplete-highlight.js
 
 jQuery-ui Autocomplete term highlight Plugin
 
-/*
+
  * jQuery-ui Autocomplete term highlight Plugin 1.0
  * Riccardo De Martis - http://jobyourlife.com
  * Requires jQuery-ui >= 1.9.x
@@ -17,4 +17,4 @@ jQuery-ui Autocomplete term highlight Plugin
  * Insert in your css:
  * 
  *  .ui-autocomplete-term {color: #62b41f; font-weight: bold;}
- */
+ 
