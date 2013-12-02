@@ -17,7 +17,8 @@
 	$(function(){
 		$.extend( $.ui.autocomplete.prototype,{
 			_renderItem: function(ul, item){
-				var term = this.element.val(),
+				var 
+					term = new RegExp(this.element.val(),"gi");
 					html = item.label.replace( term, '<b class="ui-autocomplete-term">$&</b>' );
 				return $('<li></li>')
 					.data('item.autocomplete', item)
